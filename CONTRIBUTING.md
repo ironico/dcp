@@ -1,8 +1,8 @@
-# Contributing to the CDP
+# Contributing to the DCP
 
-Thank you for your interest in improving the Colleague Digital Protocol.
+Thank you for your interest in improving the Digital Colleague Protocol.
 
-The CDP is an open standard created by Gennaro Varriale and maintained by aitenk srl. Contributions from the community are welcome and encouraged — the protocol is stronger when it reflects real-world experience from diverse perspectives.
+The DCP is an open standard created by Gennaro Varriale and maintained by aitenk srl. Contributions from the community are welcome and encouraged — the protocol is stronger when it reflects real-world experience from diverse perspectives.
 
 ---
 
@@ -12,13 +12,13 @@ The CDP is an open standard created by Gennaro Varriale and maintained by aitenk
 
 **Editorial improvements** — Improvements to language, structure, or readability that do not change the meaning of any requirement are welcome as Pull Requests directly.
 
-**New SHOULD behaviors** — If you have identified a best practice that should be recommended (but not required) for CDP-compliant agents, open an Issue with the label `enhancement` and describe the behavior, the rationale, and examples.
+**New SHOULD behaviors** — If you have identified a best practice that should be recommended (but not required) for DCP-compliant agents, open an Issue with the label `enhancement` and describe the behavior, the rationale, and examples.
 
 **New MUST behaviors** — Proposals to add new required behaviors are significant changes and must go through the full review process described below. Open an Issue with the label `breaking-change`. A proposal for a new MUST should include, where feasible, a corresponding conformance criterion ([T] or [A]) — a requirement that cannot be verified is a weaker requirement.
 
 **Conformance tests and schemas** — Improvements to the test procedures in `conformance/` or to the JSON Schemas in `schemas/` are welcome. New tests for existing requirements are MINOR changes; changes that make a previously passing agent fail are MAJOR.
 
-**Real-world case studies** — If you have implemented CDP compliance and want to share learnings, open a Discussion. These are valuable for the community and may inform future versions.
+**Real-world case studies** — If you have implemented DCP compliance and want to share learnings, open a Discussion. These are valuable for the community and may inform future versions.
 
 ---
 
@@ -36,7 +36,7 @@ The CDP is an open standard created by Gennaro Varriale and maintained by aitenk
 
 ## Major version review process
 
-Changes that result in a MAJOR version bump affect all existing CDP-compliant implementations. They require:
+Changes that result in a MAJOR version bump affect all existing DCP-compliant implementations. They require:
 
 1. **Issue opened** with label `breaking-change`, full description of the proposed change, rationale, and impact on existing implementations
 2. **30-day public comment period** — the community responds in the Issue thread
@@ -48,11 +48,11 @@ Changes that result in a MAJOR version bump affect all existing CDP-compliant im
 
 ## What we are looking for
 
-Good contributions to the CDP:
+Good contributions to the DCP:
 
 - Are grounded in real experience with AI agents in professional work contexts
 - Increase clarity without adding unnecessary complexity
-- Are technology-agnostic — the CDP should apply regardless of the underlying model or framework
+- Are technology-agnostic — the DCP should apply regardless of the underlying model or framework
 - Respect the philosophy of the protocol: agents as professional colleagues, not tools
 
 ---
@@ -68,7 +68,7 @@ Good contributions to the CDP:
 
 ## Code of conduct
 
-Discussions about the CDP should be professional and constructive. Proposals should be evaluated on their merits. Contributors are expected to engage in good faith.
+Discussions about the DCP should be professional and constructive. Proposals should be evaluated on their merits. Contributors are expected to engage in good faith.
 
 ---
 
@@ -76,8 +76,8 @@ Discussions about the CDP should be professional and constructive. Proposals sho
 
 All contributors will be acknowledged in the CHANGELOG for the version their contribution appears in.
 
-Significant contributions may be acknowledged in the CDP document itself.
+Significant contributions may be acknowledged in the DCP document itself.
 
 ---
 
-*Questions? Open a Discussion on GitHub or write to cdp@collegadigitale.com*
+*Questions? Open a Discussion on GitHub or write to dcp@collegadigitale.com*

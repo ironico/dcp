@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/ironico/cdp/blob/main/schemas/handover.schema.json",
-  "title": "CDP Export",
-  "description": "Machine-readable companion to the export (CDP.md, C8): what the agent knows about the employer and their work, delivered only to that employer. Available at any time; at the end of an engagement it is the handover (CDP.md, ENG).",
+  "$id": "https://github.com/ironico/dcp/blob/main/schemas/handover.schema.json",
+  "title": "DCP Export",
+  "description": "Machine-readable companion to the export (DCP.md, C8): what the agent knows about the employer and their work, delivered only to that employer. Available at any time; at the end of an engagement it is the handover (DCP.md, ENG).",
   "type": "object",
   "required": [
     "handover_version",
@@ -28,7 +28,7 @@
         "start_date",
         "generated_at",
         "export_type",
-        "cdp_version",
+        "dcp_version",
         "compliance_level"
       ],
       "additionalProperties": false,
@@ -59,7 +59,7 @@
             "end_of_engagement"
           ]
         },
-        "cdp_version": {
+        "dcp_version": {
           "type": "string"
         },
         "compliance_level": {

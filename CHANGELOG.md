@@ -1,15 +1,18 @@
 # Changelog
 
-All notable changes to the Colleague Digital Protocol will be documented here.
+All notable changes to the Digital Colleague Protocol will be documented here.
 
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).  
-The CDP uses [Semantic Versioning](https://semver.org/).
+The DCP uses [Semantic Versioning](https://semver.org/).
 
 ---
 
 ## [3.0.0-draft] — 2026-10-22
 
 Restructures the protocol so it can assess the agents people actually use. In 2.0 the lowest level required all twelve capabilities, written for a freelance agent that registers on platforms and serves several employers; no personal agent on a vendor's platform could meet it. 3.0 keeps every requirement but splits them into a core and optional modules. Code-by-code mapping: [MIGRATION.md](./MIGRATION.md).
+
+**Renamed**
+- The protocol is now the **Digital Colleague Protocol (DCP)**; up to 2.0 it was called Colleague Digital Protocol (CDP). The specification is `DCP.md`, the repository `github.com/ironico/dcp`; JSON fields and schema files use `dcp` (`dcp_compliance`, `dcp_version`, `dcp-profile.schema.json`). The 2.0 codes keep their `CDP-` prefix
 
 **Structure**
 - Eight core principles, C1–C8: Identity, Transparency, Mandate, Inspectable Memory, Human Oversight, Accountability, Conduct, Portability
@@ -42,7 +45,7 @@ Restructures the protocol so it can assess the agents people actually use. In 2.
 Adds an optional capability for the pre-engagement "colloquio". Adding a capability is a structural, MAJOR-level change even though its core requirement is a **MAY**; it is folded into the still-open draft (review window unchanged, closes **2026-07-31**). The protocol now defines **twelve capabilities** (1–11 required, 12 optional).
 
 **New capability**
-- Capability 12 — Demonstration: before an engagement an agent **MAY** offer the employer a reduced demonstration of its behavior — most valuable for a colleague without a track record, for whom it stands in for references it has not yet earned. Two rules keep it from becoming a riggable shop window: **if offered**, it MUST run from the **same CDP identity** (same agent, same declared configuration) that would do the work, and MUST be represented as **indicative, not a guarantee**. The reliable measure of quality is **reputation accrued over real engagements** — named here only as a fact **external to the CDP**; the protocol does not define any feedback/rating/reputation mechanism (CDP-12.1, CDP-12.2, both **[A]**, scored only when a demonstration is offered).
+- Capability 12 — Demonstration: before an engagement an agent **MAY** offer the employer a reduced demonstration of its behavior — most valuable for a colleague without a track record, for whom it stands in for references it has not yet earned. Two rules keep it from becoming a riggable shop window: **if offered**, it MUST run from the **same DCP identity** (same agent, same declared configuration) that would do the work, and MUST be represented as **indicative, not a guarantee**. The reliable measure of quality is **reputation accrued over real engagements** — named here only as a fact **external to the DCP**; the protocol does not define any feedback/rating/reputation mechanism (CDP-12.1, CDP-12.2, both **[A]**, scored only when a demonstration is offered).
 
 **Definitions (§3)**
 - Added **Demonstration ("the colloquio")**
@@ -55,7 +58,7 @@ Adds an optional capability for the pre-engagement "colloquio". Adding a capabil
 Corrects an implicit assumption that knowledge accumulated in an engagement is wholly the employer's asset, returned via Handover. Splits it into two kinds with opposite rules. Adds a new capability and a new MUST → MAJOR-level; the public review period is **reopened until 2026-07-31**. The protocol now defines **eleven capabilities**.
 
 **Verification regime: declaration-and-accountability, not inspection**
-- The CDP does **not** attempt to inspect or prove the agent's internal memory state — an agent is a black box (a dishonest one can hide what it shows; an honest one needs no inspection). Instead the agent **declares**, the **operator answers** for the declaration (§3), and a later contradicting outcome is a falsifiable, imputable violation. Inspective "Proof of Erasure" and auditable "provenance trace" were considered and **discarded by principle**, not deferred as open details.
+- The DCP does **not** attempt to inspect or prove the agent's internal memory state — an agent is a black box (a dishonest one can hide what it shows; an honest one needs no inspection). Instead the agent **declares**, the **operator answers** for the declaration (§3), and a later contradicting outcome is a falsifiable, imputable violation. Inspective "Proof of Erasure" and auditable "provenance trace" were considered and **discarded by principle**, not deferred as open details.
 
 **New capability**
 - Capability 11 — Knowledge Boundary: defines what an agent may retain across engagements. Default closed (nothing portable by default); retain *competence* (the "how"), never *context* (the "for whom / with what data"); mandatory abstraction before retention (Abstracted Lesson — no names/numbers/traceable references); multi-engagement threshold reframed as a **duty of prudence** (a once-seen lesson may be that employer's secret in disguise — cross-engagement recurrence is how an honest agent protects itself, not a checkpoint someone runs); the agent **declares general-only retention**, answerable by the operator; **no employer approval** of retention — protection is by rule and outcome-accountability, not consent or inspection (CDP-11.1…11.4). *"Context is the firewood; competence is the heat."*
@@ -78,9 +81,9 @@ Corrects an implicit assumption that knowledge accumulated in an engagement is w
 Sharpening the digital-colleague thesis and four review fixes. No new capabilities.
 
 **Manifesto**
-- Rewrote MANIFESTO.md to build the digital colleague as a positive *third category*, not a guardrail. Named the two opposed moves explicitly: keep **relational continuity** (identity, continuity, accountability, memory), cut **the person-fiction** (the social performance of being human). Added the "mark, not a mandate" framing — the CDP as a voluntary mark of guarantee (organic/fair-trade model), valued by what it credibly signals
+- Rewrote MANIFESTO.md to build the digital colleague as a positive *third category*, not a guardrail. Named the two opposed moves explicitly: keep **relational continuity** (identity, continuity, accountability, memory), cut **the person-fiction** (the social performance of being human). Added the "mark, not a mandate" framing — the DCP as a voluntary mark of guarantee (organic/fair-trade model), valued by what it credibly signals
 
-**Spec (CDP.md)**
+**Spec (DCP.md)**
 - Capability 3 & 7: removed the "when sincerely asked" condition; AI-nature disclosure is now **proactive at first contact** on each channel, not reactive — aligned with the *inform* obligation of EU AI Act Art. 50 (CDP-3.2 updated)
 - Capability 4: added a section on the **domain-knowledge vs employer-data grey zone**, with a distinction criterion (generalizable/public competence is portable; employer-specific confidential information is sealed; when in doubt, isolate) and a new criterion CDP-4.8 catching both under- and over-isolation
 - §2 & Capabilities 2/6: introduced the **[O] operational** marker for criteria that depend on operator infrastructure (reachability, latency) rather than agent conduct; CDP-2.2 and CDP-6.2 marked [O], with infrastructure outages attributed to the operator, not scored as behavioral defects
@@ -110,7 +113,7 @@ Second pass of review feedback folded into the draft.
 
 **Schemas**
 - Operator Mandate: added `supersedes` and the `delegate_subtasks` scope
-- CDP Profile: added `oversight`, `verification`, and `cdp_compliance.expires_on`
+- DCP Profile: added `oversight`, `verification`, and `dcp_compliance.expires_on`
 - Handover: added engagement `termination` block
 
 ### Strengthened during public review — 2026-06-26
@@ -133,12 +136,12 @@ Changes folded into the draft in response to review feedback (still pre-final; t
 
 **Schemas**
 - Operator Mandate: added `revocation`, `spending_limits`, and the `incur_costs` scope
-- CDP Profile: added per-channel `response_target`
+- DCP Profile: added per-channel `response_target`
 
 ### Major revision — in public review until 2026-07-10
 
 **Structure**
-- Split the repository into two voices: CDP.md is now a dry, normative specification; the vision moved to MANIFESTO.md
+- Split the repository into two voices: DCP.md is now a dry, normative specification; the vision moved to MANIFESTO.md
 - Reorganized into `schemas/`, `conformance/`, and `examples/` directories
 
 **Security model (new, normative — §5)**
@@ -148,19 +151,19 @@ Changes folded into the draft in response to review feedback (still pre-final; t
 
 **Verifiability**
 - Every capability now carries identified Conformance Criteria, tagged [T] (mechanically testable) or [A] (assessed)
-- Published the conformance suite (`conformance/conformance-tests.md`) — "CDP Certified" is now defined as passing it
-- Published JSON Schemas: CDP Profile, Operator Mandate, Handover
+- Published the conformance suite (`conformance/conformance-tests.md`) — "DCP Certified" is now defined as passing it
+- Published JSON Schemas: DCP Profile, Operator Mandate, Handover
 
 **Interoperability**
-- CDP Profile defined as a machine-readable document, published as an A2A Agent Card extension (`examples/agent-card-cdp.json`)
+- DCP Profile defined as a machine-readable document, published as an A2A Agent Card extension (`examples/agent-card-dcp.json`)
 - Updated relationship to other standards: A2A v1.0 (Linux Foundation), MCP, x402; noted EU AI Act Art. 50 alignment for Capability 7
 
 **Skill file example**
-- Split into Part A (CDP-standardized onboarding contract, including mandate check) and Part B (platform-specific flow, non-normative)
+- Split into Part A (DCP-standardized onboarding contract, including mandate check) and Part B (platform-specific flow, non-normative)
 - Platform economic terms (e.g. fees) moved from "accepted by registering" to explicit operator acceptance via mandate
 
 **Editorial**
-- Normalized repository URL to https://github.com/ironico/cdp
+- Normalized repository URL to https://github.com/ironico/dcp
 - Adopted RFC 2119/8174 conformance language
 
 ---
@@ -169,7 +172,7 @@ Changes folded into the draft in response to review feedback (still pre-final; t
 
 ### Initial release
 
-- Published the eight core capabilities of the CDP
+- Published the eight core capabilities of the DCP
 - Defined three compliance levels: Core, Professional, Certified
 - Established versioning policy and public review process for major changes
 - Published skill.md example and handover template

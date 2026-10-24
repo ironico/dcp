@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/ironico/cdp/blob/main/schemas/operator-mandate.schema.json",
+  "$id": "https://github.com/ironico/dcp/blob/main/schemas/operator-mandate.schema.json",
   "title": "Operator Mandate",
-  "description": "Verifiable authorization issued by an operator, defining what an agent may do on which platforms. Machine-readable form required by the AUT module (CDP.md §5). In the Core the mandate may be plain text (CDP.md, C3).",
+  "description": "Verifiable authorization issued by an operator, defining what an agent may do on which platforms. Machine-readable form required by the AUT module (DCP.md §5). In the Core the mandate may be plain text (DCP.md, C3).",
   "type": "object",
   "required": [
     "mandate_version",

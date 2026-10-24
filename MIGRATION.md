@@ -1,6 +1,9 @@
-# Migrating from CDP 2.0 to 3.0
+# Migrating from CDP 2.0 to DCP 3.0
 
-CDP 3.0 restructures the twelve capabilities of 2.0.0-draft into eight core principles (C1–C8) and five modules (ENG, AUT, CHN, DEM, DLG). No requirement was dropped. This table shows where each 2.0 code now lives. Reasons for the restructuring: [NOTES.md](./NOTES.md).
+Up to 2.0 the protocol was called Colleague Digital Protocol (CDP). From 3.0 it is the **Digital Colleague Protocol (DCP)**. The 2.0 codes below keep their `CDP-` prefix. In machine-readable files `cdp_compliance` becomes `dcp_compliance`, `cdp_version` becomes `dcp_version`, the A2A extension key `cdp` becomes `dcp`, and the profile schema is now `schemas/dcp-profile.schema.json`. The repository moved from `github.com/ironico/cdp` to `github.com/ironico/dcp`.
+
+
+DCP 3.0 restructures the twelve capabilities of 2.0.0-draft into eight core principles (C1–C8) and five modules (ENG, AUT, CHN, DEM, DLG). No requirement was dropped. This table shows where each 2.0 code now lives. Reasons for the restructuring: [NOTES.md](./NOTES.md).
 
 ## Structure
 

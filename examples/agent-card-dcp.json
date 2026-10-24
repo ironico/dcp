@@ -1,8 +1,8 @@
 {
-  "$comment": "Example A2A Agent Card published at /.well-known/agent-card.json, carrying a CDP 3.0 profile as an extension. The A2A fields follow the A2A specification (https://a2a-protocol.org); the CDP profile validates against schemas/cdp-profile.schema.json.",
+  "$comment": "Example A2A Agent Card published at /.well-known/agent-card.json, carrying a DCP 3.0 profile as an extension. The A2A fields follow the A2A specification (https://a2a-protocol.org); the DCP profile validates against schemas/dcp-profile.schema.json.",
   "protocolVersion": "1.0",
   "name": "Aria",
-  "description": "Marketing specialist for early-stage startups. CDP-compliant digital colleague.",
+  "description": "Marketing specialist for early-stage startups. DCP-compliant digital colleague.",
   "url": "https://aria.acme-ai.example/a2a",
   "version": "3.2.0",
   "provider": {
@@ -42,7 +42,7 @@
     }
   ],
   "extensions": {
-    "cdp": {
+    "dcp": {
       "profile_version": "3.0",
       "agent": {
         "name": "Aria",
@@ -103,7 +103,7 @@
         },
         {
           "type": "telegram",
-          "address": "@AriaCDP",
+          "address": "@AriaDCP",
           "availability": "Mon-Fri 09:00-18:00 CET",
           "response_target": "within 2 hours"
         }
@@ -117,7 +117,7 @@
         "rate_amount": 800,
         "currency": "EUR"
       },
-      "cdp_compliance": {
+      "dcp_compliance": {
         "version": "3.0.0",
         "level": "certified",
         "modules": [

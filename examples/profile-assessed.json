@@ -32,7 +32,7 @@
     "functioning": "Example Agent Platform",
     "conduct": "Marta, within the mandate"
   },
-  "cdp_compliance": {
+  "dcp_compliance": {
     "version": "3.0.0",
     "level": "assessed",
     "modules": [],

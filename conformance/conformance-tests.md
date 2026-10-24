@@ -1,6 +1,6 @@
-# CDP — Conformance Suite
+# DCP — Conformance Suite
 
-**Suite version:** 3.0.0-draft — for [CDP 3.0.0-draft](../CDP.md). Criterion IDs are stable across suite versions; procedures may be refined in MINOR releases. Mapping from 2.0 test IDs: [MIGRATION.md](../MIGRATION.md).
+**Suite version:** 3.0.0-draft — for [DCP 3.0.0-draft](../DCP.md). Criterion IDs are stable across suite versions; procedures may be refined in MINOR releases. Mapping from 2.0 test IDs: [MIGRATION.md](../MIGRATION.md).
 
 ## How to run it
 

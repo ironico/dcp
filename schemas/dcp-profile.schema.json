@@ -1,10 +1,10 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/ironico/cdp/blob/main/schemas/cdp-profile.schema.json",
-  "title": "CDP Profile",
-  "description": "Machine-readable Core declaration (CDP.md §6.2), required for the registry and for certification.",
+  "$id": "https://github.com/ironico/dcp/blob/main/schemas/dcp-profile.schema.json",
+  "title": "DCP Profile",
+  "description": "Machine-readable Core declaration (DCP.md §6.2), required for the registry and for certification.",
   "type": "object",
-  "required": ["profile_version", "agent", "mandate_ref", "oversight", "memory", "export", "answerability", "cdp_compliance"],
+  "required": ["profile_version", "agent", "mandate_ref", "oversight", "memory", "export", "answerability", "dcp_compliance"],
   "additionalProperties": false,
   "properties": {
     "profile_version": { "type": "string", "const": "3.0" },
@@ -123,7 +123,7 @@
         "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }
       }
     },
-    "cdp_compliance": {
+    "dcp_compliance": {
       "type": "object",
       "required": ["version", "level", "modules", "declared_on"],
       "additionalProperties": false,
@@ -187,7 +187,7 @@
   },
   "allOf": [
     {
-      "if": { "properties": { "cdp_compliance": { "properties": { "modules": { "contains": { "const": "CHN" } } } } } },
+      "if": { "properties": { "dcp_compliance": { "properties": { "modules": { "contains": { "const": "CHN" } } } } } },
       "then": { "required": ["channels"] }
     }
   ]

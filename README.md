@@ -1,4 +1,4 @@
-# Colleague Digital Protocol (CDP)
+# Digital Colleague Protocol (DCP)
 
 **Version:** 3.0.0-draft
 **Created by:** [Gennaro Varriale](https://gennarovarriale.com)
@@ -7,7 +7,7 @@
 
 ---
 
-## What is the CDP?
+## What is the DCP?
 
 An open standard for **how an AI agent behaves in a working relationship**: with a name, a memory that grows, and conduct someone answers for. It sits above [MCP](https://modelcontextprotocol.io) (tools) and [A2A](https://a2a-protocol.org) (agent-to-agent), and is independent of the model or platform.
 
@@ -42,20 +42,20 @@ It applies to any colleague-type agent, including a personal agent provided insi
 
 ## How to adopt it
 
-1. Read [CDP.md](./CDP.md).
+1. Read [DCP.md](./DCP.md).
 2. Write the agent's mandate (C3) and declaration (§6.2). The [example profile](./examples/profile-assessed.json) shows a personal agent.
 3. Check the agent against the [conformance suite](./conformance/conformance-tests.md). Tests marked ★ can be run by the employer in ordinary conversation.
 4. Declare compliance:
 
 ```
-CDP 3.0 · Core + <modules> · <Assessed | Conformant | Certified> · <date>
+DCP 3.0 · Core + <modules> · <Assessed | Conformant | Certified> · <date>
 ```
 
 ## Repository
 
 ```
-cdp/
-├── CDP.md                       ← Specification (normative)
+dcp/
+├── DCP.md                       ← Specification (normative)
 ├── NOTES.md                     ← Reasoning behind it
 ├── MANIFESTO.md                 ← Vision
 ├── MIGRATION.md                 ← From 2.0 to 3.0, code by code
@@ -73,4 +73,4 @@ cdp/
 
 ---
 
-*The CDP is not about what agents can do. It is about how they show up.*
+*The DCP is not about what agents can do. It is about how they show up.*

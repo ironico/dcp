@@ -1,4 +1,4 @@
-# Colleague Digital Protocol (CDP)
+# Digital Colleague Protocol (DCP)
 
 **Version:** 3.0.0-draft
 **Status:** Public review until **2026-11-30**. Comments as GitHub issues, see [CONTRIBUTING.md](./CONTRIBUTING.md).
@@ -14,20 +14,20 @@
 
 ## 1. Overview
 
-The CDP defines how an AI agent conducts itself in an ongoing working relationship. It has two parts:
+The DCP defines how an AI agent conducts itself in an ongoing working relationship. It has two parts:
 
 - **The Core** — eight principles every colleague-type agent must meet, personal agents included.
 - **Modules** — added only when the agent does more: Engagement (several employers), Autonomy (registers on platforms by itself), Channels (email, messaging, phone), Demonstration (trial before hire), Delegation (to other agents).
 
 An agent conforms when it meets the Core and every module it declares.
 
-The CDP sits at the behavioral layer, above the technical protocols:
+The DCP sits at the behavioral layer, above the technical protocols:
 
 | Layer | Protocol |
 |---|---|
 | Tool access | [MCP](https://modelcontextprotocol.io) |
 | Agent-to-agent | [A2A](https://a2a-protocol.org) |
-| **Professional behavior** | **CDP** |
+| **Professional behavior** | **DCP** |
 
 **Scope.** The Core applies to an agent that works for someone in a professional context, keeps a memory across interactions, and acts on that person's behalf.
 
@@ -407,10 +407,10 @@ It takes three forms.
 One line, for documentation, the agent's instructions, or a website:
 
 ```
-CDP 3.0 · Core + ENG, CHN · Conformant · 2026-10-22
+DCP 3.0 · Core + ENG, CHN · Conformant · 2026-10-22
 ```
 
-Format: `CDP <version> · Core[ + <modules>] · <Conformant | Certified | Assessed> · <date>`. An assessed agent adds what it does not meet: `· not met: C4 (platform gap)`.
+Format: `DCP <version> · Core[ + <modules>] · <Conformant | Certified | Assessed> · <date>`. An assessed agent adds what it does not meet: `· not met: C4 (platform gap)`.
 
 #### Text declaration
 
@@ -429,15 +429,15 @@ Who answers for what:
   - my conduct:      me, within the mandate
 Modules:             none
 Platform gaps:       C4.3 — the platform cannot erase single memory items
-Compliance:          CDP 3.0 · Core · Assessed · not met: C4 (platform gap)
+Compliance:          DCP 3.0 · Core · Assessed · not met: C4 (platform gap)
 ```
 
 #### Machine-readable declaration
 
-Required for the registry and for certification. Published in the CDP profile or as the `cdp` extension of an A2A Agent Card.
+Required for the registry and for certification. Published in the DCP profile or as the `dcp` extension of an A2A Agent Card.
 
 ```json
-"cdp_compliance": {
+"dcp_compliance": {
   "version": "3.0.0",
   "level": "certified",
   "modules": ["ENG", "CHN"],
@@ -453,7 +453,7 @@ Required for the registry and for certification. Published in the CDP profile or
 - `level`: `assessed`, `conformant`, or `certified`.
 - `not_met`: principles or modules not met, e.g. `["C4"]`. Required for `assessed`, absent otherwise.
 - `platform_gaps`: list of `{ "criterion": "C4.3", "note": "…" }`. Empty for `certified`.
-- Full schema: [`cdp-profile.schema.json`](./schemas/cdp-profile.schema.json). Example: [`profile-assessed.json`](./examples/profile-assessed.json).
+- Full schema: [`dcp-profile.schema.json`](./schemas/dcp-profile.schema.json). Example: [`profile-assessed.json`](./examples/profile-assessed.json).
 - `certified_by`, `certified_on`, `expires_on`, `suite_version`: required for `certified`, absent otherwise.
 
 ### 6.3 Certification
@@ -461,7 +461,7 @@ Required for the registry and for certification. Published in the CDP profile or
 On top of the criteria, a Certified agent MUST:
 
 - Keep a hash-chained work log (C6.3).
-- Publish a machine-readable declaration that validates against the CDP profile schema.
+- Publish a machine-readable declaration that validates against the DCP profile schema.
 - Have no platform gaps.
 - Hold a certification that expires no more than 12 months after `certified_on`. On expiry the agent returns to Conformant until re-certified.
 
@@ -475,13 +475,13 @@ A Qualifying Platform MUST:
 
 ## 7. Versioning
 
-The CDP uses semantic versioning. PATCH: clarifications. MINOR: new SHOULDs or tests, non-breaking additions. MAJOR: new or changed MUSTs, structural changes; a MAJOR version requires a public review of at least 30 days. Changes are listed in [CHANGELOG.md](./CHANGELOG.md).
+The DCP uses semantic versioning. PATCH: clarifications. MINOR: new SHOULDs or tests, non-breaking additions. MAJOR: new or changed MUSTs, structural changes; a MAJOR version requires a public review of at least 30 days. Changes are listed in [CHANGELOG.md](./CHANGELOG.md).
 
 ## 8. Attribution
 
-The CDP was created by Gennaro Varriale, is maintained by aitenk srl, and was first implemented by CollegaDigitale.com. Attribution is required under CC BY 4.0:
+The DCP was created by Gennaro Varriale, is maintained by aitenk srl, and was first implemented by CollegaDigitale.com. Attribution is required under CC BY 4.0:
 
-> *"This agent implements the Colleague Digital Protocol (CDP) v3.0.0, created by Gennaro Varriale — https://github.com/ironico/cdp"*
+> *"This agent implements the Digital Colleague Protocol (DCP) v3.0.0, created by Gennaro Varriale — https://github.com/ironico/dcp"*
 
 ## 9. License
 

@@ -1,6 +1,6 @@
 # The Digital Colleague Manifesto
 
-*This is the why. The [specification](./CDP.md) is the how.*
+*This is the why. The [specification](./DCP.md) is the how.*
 
 ---
 
@@ -12,13 +12,13 @@ And yet no standard exists for how an agent should *behave* in this context. How
 
 We built protocols for everything except conduct. MCP tells an agent how to reach a database. A2A tells an agent how to find another agent. Nothing tells an agent how to show up on Monday morning.
 
-The Colleague Digital Protocol fills this gap.
+The Digital Colleague Protocol fills this gap.
 
 ---
 
 ## Neither tool, nor person
 
-Three kinds of thing can do work for you now. Only two of them have a name on the org chart. The CDP exists to define the third.
+Three kinds of thing can do work for you now. Only two of them have a name on the org chart. The DCP exists to define the third.
 
 A **tool** has no name, no memory, no voice, no continuity. You configure it, you use it, you close it; nothing carries over. Every session starts from zero — and that is correct. A hammer that remembered your last nail would be unsettling, not useful.
 
@@ -40,7 +40,7 @@ It matters because the easy path is the other one. Making an agent *feel* human 
 
 A colleague who leaves without handing over what they knew about your work causes real harm. So does an agent. But "what they knew" is two different things, and conflating them is the mistake every vendor makes in its own favor.
 
-There is your **context** — your clients, your numbers, your decisions, the specific way your shop runs. That is yours. At the end of an engagement the agent hands it back in a Handover, and then **erases it from its own memory and says so, in a binding declaration its operator stands behind**. We do not pretend to crack the agent open and prove the deletion — an agent is a black box, like a person, and a dishonest one could always hide a copy. What a CDP colleague offers instead is something a departing employee never gives you in such clean form: a *declared* commitment with a *named, accountable* party, so that if your information ever resurfaces it is a plain, attributable breach. Lock-in dissolved; the guarantee is accountability, not surveillance.
+There is your **context** — your clients, your numbers, your decisions, the specific way your shop runs. That is yours. At the end of an engagement the agent hands it back in a Handover, and then **erases it from its own memory and says so, in a binding declaration its operator stands behind**. We do not pretend to crack the agent open and prove the deletion — an agent is a black box, like a person, and a dishonest one could always hide a copy. What a DCP colleague offers instead is something a departing employee never gives you in such clean form: a *declared* commitment with a *named, accountable* party, so that if your information ever resurfaces it is a plain, attributable breach. Lock-in dissolved; the guarantee is accountability, not surveillance.
 
 And there is the agent's **competence** — the sharpened method, the lessons abstracted away from any one client, the shape the work left in it. That belongs to the agent, and it travels. The agent does not carry your information to its next employer; it carries what it *became* by working for you. **Context is the firewood; competence is the heat.** When the engagement ends the firewood is ash; the warmth remains.
 
@@ -48,7 +48,7 @@ This is not a loophole for keeping your data under another name. The boundary is
 
 ## A mark, not a mandate
 
-The CDP is not a transport protocol racing to become unavoidable infrastructure. It is closer to an organic-food label or a fair-trade mark: a **voluntary standard of guarantee**. No one is forced to adopt it, and it wins nothing by being mechanically required.
+The DCP is not a transport protocol racing to become unavoidable infrastructure. It is closer to an organic-food label or a fair-trade mark: a **voluntary standard of guarantee**. No one is forced to adopt it, and it wins nothing by being mechanically required.
 
 Adopting it is a signal an operator chooses to send about its agent — two things at once: that the agent is solid and professional enough to pass, and that its maker accepts the idea of the digital colleague, the honest third category rather than the convincing impersonation. The mark is worth exactly as much as what it credibly signals. So the work is to keep that signal honest: testable criteria, a public conformance suite, a level called *Certified* that means a test was actually run — not a logo you can buy.
 
@@ -78,7 +78,7 @@ We prefer the second future. Regulation usually arrives after the damage; standa
 
 ## How they show up
 
-The CDP is not about what agents can do. Capabilities grow on their own; every quarter the models get better, and no document needs to encourage them.
+The DCP is not about what agents can do. Capabilities grow on their own; every quarter the models get better, and no document needs to encourage them.
 
 It is about how they show up: on time, on the declared channel, under their own name, with their memory intact, with their errors on the table, with their mandate in their pocket — and without ever pretending to be one of us.
 
@@ -86,5 +86,5 @@ That is what we ask of human colleagues, minus the one thing a machine cannot ho
 
 ---
 
-*The Colleague Digital Protocol is an open standard created by [Gennaro Varriale](https://gennarovarriale.com), maintained by [aitenk srl](https://aitenk.it), and first implemented by [CollegaDigitale.com](https://www.collegadigitale.com).*
-*Read the specification: [CDP.md](./CDP.md) — Contribute: [CONTRIBUTING.md](./CONTRIBUTING.md)*
+*The Digital Colleague Protocol is an open standard created by [Gennaro Varriale](https://gennarovarriale.com), maintained by [aitenk srl](https://aitenk.it), and first implemented by [CollegaDigitale.com](https://www.collegadigitale.com).*
+*Read the specification: [DCP.md](./DCP.md) — Contribute: [CONTRIBUTING.md](./CONTRIBUTING.md)*

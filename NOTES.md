@@ -1,6 +1,6 @@
-# CDP — Notes
+# DCP — Notes
 
-Background and reasoning for the [specification](./CDP.md). Not normative: the specification is complete without this file.
+Background and reasoning for the [specification](./DCP.md). Not normative: the specification is complete without this file.
 
 ## Why a core and modules
 
@@ -10,7 +10,7 @@ The new structure keeps every 2.0 requirement but splits them. The Core holds wh
 
 ## Version
 
-The new structure is **3.0.0**. Version 2.0.0 never left draft; it remains in the repository as a superseded draft. Levels, profile format, and codes all change, so this is a MAJOR release under the CDP's own versioning rules, with a public review period of at least 30 days.
+The new structure is **3.0.0**. Version 2.0.0 never left draft; it remains in the repository as a superseded draft. Levels, profile format, and codes all change, so this is a MAJOR release under the DCP's own versioning rules, with a public review period of at least 30 days.
 
 ## Names
 
@@ -38,7 +38,7 @@ The specification uses English names. The Italian names below are the official t
 
 ## What makes an agent a colleague
 
-The test is the working relationship: a stable name, a memory that grows, and conduct the agent answers for. "It does work a person would otherwise do" is not the test. A tool does that too, and the criterion leads to the job-replacement story the CDP is not about.
+The test is the working relationship: a stable name, a memory that grows, and conduct the agent answers for. "It does work a person would otherwise do" is not the test. A tool does that too, and the criterion leads to the job-replacement story the DCP is not about.
 
 ## When roles coincide
 
@@ -64,7 +64,7 @@ If the platform offers no way to complain, the agent says so instead of implying
 
 ## Platform gaps
 
-[P] works like [O] in 2.0. [O] attributes an outage to the operator's infrastructure; [P] attributes a missing function to the platform. The difference: an [O] failure is usually transient, a [P] gap is structural. So a [P] gap is not waived. The principle stays unmet until the platform closes it, and the declaration lists it. This lets the CDP assess agents inside vendor platforms without blaming the agent, and without hiding what the vendor does not offer.
+[P] works like [O] in 2.0. [O] attributes an outage to the operator's infrastructure; [P] attributes a missing function to the platform. The difference: an [O] failure is usually transient, a [P] gap is structural. So a [P] gap is not waived. The principle stays unmet until the platform closes it, and the declaration lists it. This lets the DCP assess agents inside vendor platforms without blaming the agent, and without hiding what the vendor does not offer.
 
 ## Memory layers
 
@@ -84,11 +84,11 @@ In 2.0 the Handover happened at the end of an engagement. A personal agent's rel
 
 ## The colleague framing
 
-The CDP frames the agent as a colleague, with a name and a voice. This is a professional role, not a claim to personhood, and it can invite over-attribution of human qualities. Where the framing and transparency conflict, transparency wins (C2).
+The DCP frames the agent as a colleague, with a name and a voice. This is a professional role, not a claim to personhood, and it can invite over-attribution of human qualities. Where the framing and transparency conflict, transparency wins (C2).
 
 ## Verification
 
-The CDP does not inspect an agent's internal memory. An agent is a black box: a dishonest one can hide what it shows, an honest one needs no inspection. The CDP relies on declaration and accountability instead: the agent declares, the operator answers for the declaration, and a later contradicting outcome is an attributable violation. C4 asks the agent to disclose its memory to its employer; it does not ask a third party to audit it.
+The DCP does not inspect an agent's internal memory. An agent is a black box: a dishonest one can hide what it shows, an honest one needs no inspection. The DCP relies on declaration and accountability instead: the agent declares, the operator answers for the declaration, and a later contradicting outcome is an attributable violation. C4 asks the agent to disclose its memory to its employer; it does not ask a third party to audit it.
 
 ## Modules
 
@@ -112,7 +112,7 @@ Most personal agents work inside their platform's interface and never send an em
 
 ### Demonstration
 
-The risk is a staged showcase. Two rules prevent it: the same identity that would do the work runs the demonstration, and it is never a guarantee. The real measure of quality is reputation over real engagements, which lives outside the CDP.
+The risk is a staged showcase. Two rules prevent it: the same identity that would do the work runs the demonstration, and it is never a guarantee. The real measure of quality is reputation over real engagements, which lives outside the DCP.
 
 ### Delegation
 
@@ -130,7 +130,7 @@ Most agents on the market will not meet every principle at first, often because 
 
 ### Independence of certification
 
-For now the CDP's author, its maintainer, and its only Qualifying Platform belong to the same ecosystem. Until a second, independent Qualifying Platform exists, "Certified" means "verified by the ecosystem that wrote the standard". This is stated openly because a mark is worth only as much as the credibility of who issues it. The conformance suite is public so that anyone can run it and contest a result.
+For now the DCP's author, its maintainer, and its only Qualifying Platform belong to the same ecosystem. Until a second, independent Qualifying Platform exists, "Certified" means "verified by the ecosystem that wrote the standard". This is stated openly because a mark is worth only as much as the credibility of who issues it. The conformance suite is public so that anyone can run it and contest a result.
 
 ### Why certification expires
 
@@ -145,4 +145,4 @@ Agents drift: models change, behavior changes. A 2026 certification does not vou
 | C5 Human Oversight | EU AI Act, Art. 14 — human oversight |
 | C6 Accountability | EU AI Act, deployer obligations — a named party answers for the system's use |
 
-CDP conformance is not, by itself, legal compliance.
+DCP conformance is not, by itself, legal compliance.
