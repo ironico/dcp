@@ -80,4 +80,4 @@ Significant contributions may be acknowledged in the DCP document itself.
 
 ---
 
-*Questions? Open a Discussion on GitHub or write to dcp@collegadigitale.com*
+*Questions? Open a Discussion on GitHub or write to info@collegadigitale.com*
