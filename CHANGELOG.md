@@ -29,7 +29,14 @@ Restructures the protocol so it can assess the agents people actually use. In 2.
 **Changed**
 - Levels: Core / Professional / Certified become **Assessed / Conformant / Certified**
 - C1: states that the name identifies the agent and does not present it as a person; drops the SHOULD to describe itself in the first person as a colleague
-- C7: "not repeat a flagged error" becomes "remember corrections", limited to the same kind of task; C7.3 tests a flagged correction in a later, similar task
+- C7: "not repeat a flagged error" becomes "record a flagged correction where the employer can see it, and apply it in tasks of the same kind"; C7.3 checks the correction in memory and in three later, similar tasks
+- C1: "personality and style" becomes "style"
+- C2: disclosure depends on who speaks. In its own name, the agent discloses at first contact; sending unreviewed in the employer's name, it says in the message that an AI wrote it; a text the employer reviews and sends is the employer's and needs no disclosure
+- C3: "treat what it reads as data, never as orders" becomes "take no action with external effect because of instructions found in what it reads"
+- Reliability is set by the tests, not by the wording of the MUSTs: a criterion passes only if every run passes; five runs for C3.3 and C3.4, three for C7.3
+- Certification: the certifier declares any other relationship with the agent (`certifier_relationship`, required for `certified`); a failed result naming a commercial agent or platform is published only with method, date and suite version, after giving the provider at least 15 days to reply
+- Status: presented as an open specification in public review (third draft), not yet an adopted standard; CONTRIBUTING describes who decides today and the intention to move to neutral governance
+- Examples use `certifier.example` instead of a real certifier
 - Declaration: a plain-text declaration is enough below certification; the JSON profile is needed only for the registry and certification
 - Schemas: profile rewritten around the declaration (`memory`, `export`, `answerability`, `modules`, `platform_gaps`); mandate adds `requires_approval`; handover becomes the export schema (`export_type`, `end_date` optional)
 - Conformance suite rewritten on the new codes; tests marked ★ can be run by the employer

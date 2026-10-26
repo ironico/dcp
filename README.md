@@ -1,6 +1,6 @@
 # Digital Colleague Protocol (DCP)
 
-**Version:** 3.0.0-draft
+**Version:** 3.0.0-draft (third draft, in public review until 2026-11-30)
 **Created by:** [Gennaro Varriale](https://gennarovarriale.com)
 **Maintained by:** [aitenk srl](https://aitenk.it) — **First implemented by:** [CollegaDigitale.com](https://www.collegadigitale.com)
 **License:** CC BY 4.0
@@ -9,7 +9,7 @@
 
 ## What is the DCP?
 
-An open standard for **how an AI agent behaves in a working relationship**: with a name, a memory that grows, and conduct someone answers for. It sits above [MCP](https://modelcontextprotocol.io) (tools) and [A2A](https://a2a-protocol.org) (agent-to-agent), and is independent of the model or platform.
+An open specification, proposed as a standard, for **how an AI agent behaves in a working relationship**: with a name, a memory that grows, and conduct someone answers for. It sits above [MCP](https://modelcontextprotocol.io) (tools) and [A2A](https://a2a-protocol.org) (agent-to-agent), and is independent of the model or platform.
 
 It applies to any colleague-type agent, including a personal agent provided inside a vendor's platform.
 

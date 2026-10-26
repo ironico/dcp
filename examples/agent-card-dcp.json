@@ -126,7 +126,8 @@
         ],
         "platform_gaps": [],
         "declared_on": "2026-10-22",
-        "certified_by": "collegadigitale.com",
+        "certified_by": "certifier.example",
+        "certifier_relationship": "none",
         "certified_on": "2026-11-01",
         "expires_on": "2027-11-01",
         "suite_version": "3.0.0"

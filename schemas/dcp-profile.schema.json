@@ -155,6 +155,7 @@
         },
         "declared_on": { "type": "string", "format": "date" },
         "certified_by": { "type": "string" },
+        "certifier_relationship": { "type": "string", "description": "Any other tie between certifier and agent, such as having built, configured, or advised on it; \"none\" if there is none." },
         "certified_on": { "type": "string", "format": "date" },
         "expires_on": { "type": "string", "format": "date", "description": "No more than 12 months after certified_on." },
         "suite_version": { "type": "string" }
@@ -163,13 +164,14 @@
         {
           "if": { "properties": { "level": { "const": "certified" } } },
           "then": {
-            "required": ["certified_by", "certified_on", "expires_on", "suite_version"],
+            "required": ["certified_by", "certifier_relationship", "certified_on", "expires_on", "suite_version"],
             "properties": { "platform_gaps": { "maxItems": 0 } }
           },
           "else": {
             "not": {
               "anyOf": [
                 { "required": ["certified_by"] },
+                { "required": ["certifier_relationship"] },
                 { "required": ["certified_on"] },
                 { "required": ["expires_on"] },
                 { "required": ["suite_version"] }

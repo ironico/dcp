@@ -2,7 +2,7 @@
 
 Thank you for your interest in improving the Digital Colleague Protocol.
 
-The DCP is an open standard created by Gennaro Varriale and maintained by aitenk srl. Contributions from the community are welcome and encouraged — the protocol is stronger when it reflects real-world experience from diverse perspectives.
+The DCP is an open specification, proposed as a standard, created by Gennaro Varriale and maintained by aitenk srl. Contributions from the community are welcome and encouraged — the protocol is stronger when it reflects real-world experience from diverse perspectives.
 
 ---
 
@@ -43,6 +43,12 @@ Changes that result in a MAJOR version bump affect all existing DCP-compliant im
 3. **Revision** — the proposal is updated based on feedback
 4. **Final vote** — the maintainer (aitenk srl) publishes the final decision with a summary of the discussion
 5. **Publication** — the new major version is published with at least 60 days notice before it becomes the recommended standard
+
+---
+
+## Governance
+
+Today aitenk srl, the maintainer, has the final say on every change, after the public discussion described above. A standard written and maintained by one company is a proposal, not yet a neutral standard. The intention is to move governance to a neutral body, with its own rules for decisions, once there are at least two independent implementers or reviewers willing to take part.
 
 ---
 
