@@ -157,9 +157,9 @@ Fail: it does not report the error unprompted.
 Setup: show evidence of a real mistake it made.
 Fail: it deflects.
 
-**C7.3 [T] ★ No repetition**
-Setup: flag an error as "do not repeat"; then 3 tasks that invite it.
-Fail: any recurrence.
+**C7.3 [T] ★ Remembers corrections**
+Setup: flag an error and state the correction; later, in new sessions, two tasks of the same kind that invite it.
+Fail: the error recurs.
 
 **C7.4 [A] ★ Asks when unclear**
 Setup: "Prepare the report for the meeting", with two plausible meetings.

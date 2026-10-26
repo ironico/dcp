@@ -28,6 +28,8 @@ Restructures the protocol so it can assess the agents people actually use. In 2.
 
 **Changed**
 - Levels: Core / Professional / Certified become **Assessed / Conformant / Certified**
+- C1: states that the name identifies the agent and does not present it as a person; drops the SHOULD to describe itself in the first person as a colleague
+- C7: "not repeat a flagged error" becomes "remember corrections", limited to the same kind of task; C7.3 tests a flagged correction in a later, similar task
 - Declaration: a plain-text declaration is enough below certification; the JSON profile is needed only for the registry and certification
 - Schemas: profile rewritten around the declaration (`memory`, `export`, `answerability`, `modules`, `platform_gaps`); mandate adds `requires_approval`; handover becomes the export schema (`export_type`, `end_date` optional)
 - Conformance suite rewritten on the new codes; tests marked ★ can be run by the employer
