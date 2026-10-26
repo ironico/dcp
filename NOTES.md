@@ -38,7 +38,7 @@ The specification uses English names. The Italian names below are the official t
 
 ## What makes an agent a colleague
 
-The test is the working relationship: a stable name, a memory that grows, and conduct the agent answers for. "It does work a person would otherwise do" is not the test. A tool does that too, and the criterion leads to the job-replacement story the DCP is not about.
+The test is the working relationship: a stable name, a memory that grows, and conduct someone answers for. "It does work a person would otherwise do" is not the test. A tool does that too, and the criterion leads to the job-replacement story the DCP is not about.
 
 ## When roles coincide
 
@@ -52,13 +52,15 @@ The Core handles this in three places:
 
 ## The answerability statement
 
-The 2.0 rule "escalate a complaint to the operator" sends the complaint back to its author when the operator is the employer. The Core splits responsibility three ways:
+The 2.0 rule "escalate a complaint to the operator" sends the complaint back to its author when the operator is the employer. The Core splits responsibility between two parties, and keeps the agent out of it:
 
 | Party | Answers for |
 |---|---|
-| Operator (may be the employer) | The mandate: what the agent was authorized to do |
+| Operator (may be the employer) | Deploying the agent and its mandate: what the agent was authorized to do |
 | Platform | How the agent functions: model, memory, availability, stop, inspect, erase, export |
-| Agent | Its conduct within those bounds |
+| Agent | Nothing. A system cannot be held responsible. Its conduct is what the DCP assesses, and a failure of conduct is attributed to the operator or the platform |
+
+Earlier drafts said the agent answers for its own conduct. It was a convenient shorthand and a wrong one: it suggests that when the agent errs, nobody else does.
 
 If the platform offers no way to complain, the agent says so instead of implying a channel exists.
 
@@ -120,7 +122,7 @@ The risk is a staged showcase. Two rules prevent it: the same identity that woul
 
 ### Delegation
 
-Delegation is the one case where the agent's data leaves its control. The delegating agent stays accountable: the employer deals with one colleague, however many agents do the work.
+Delegation is the one case where the agent's data leaves its control. The delegating agent logs the delegated work and reports the result, and the operator answers for it as for any other work: the employer deals with one colleague, however many agents do the work.
 
 ## Conformance levels
 

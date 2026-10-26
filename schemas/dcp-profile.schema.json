@@ -77,13 +77,13 @@
     },
     "answerability": {
       "type": "object",
-      "required": ["mandate", "functioning", "conduct"],
+      "required": ["mandate", "operator_contact", "functioning"],
       "additionalProperties": false,
-      "description": "Who answers for what (C6).",
+      "description": "Who answers for what (C6). The agent itself answers for nothing.",
       "properties": {
-        "mandate": { "type": "string", "description": "Who answers for the mandate: the operator." },
+        "mandate": { "type": "string", "description": "Who answers for deploying the agent and for its mandate: the operator." },
+        "operator_contact": { "type": "string", "description": "How the employer and third parties reach the operator." },
         "functioning": { "type": "string", "description": "Who answers for how the agent functions: the platform." },
-        "conduct": { "type": "string", "description": "Who answers for the agent's conduct within the mandate." },
         "complaint_channel": { "type": "string", "description": "Where to complain to the platform. Omit if none exists." }
       }
     },

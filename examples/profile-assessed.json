@@ -29,8 +29,8 @@
   },
   "answerability": {
     "mandate": "Studio Rossi (operator and employer)",
-    "functioning": "Example Agent Platform",
-    "conduct": "Marta, within the mandate"
+    "operator_contact": "info@studiorossi.example",
+    "functioning": "Example Agent Platform"
   },
   "dcp_compliance": {
     "version": "3.0.0",

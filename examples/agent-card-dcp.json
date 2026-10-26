@@ -90,8 +90,8 @@
       },
       "answerability": {
         "mandate": "Acme AI Studio (operator)",
+        "operator_contact": "ops@acme-ai.example",
         "functioning": "Acme AI Studio (platform and operator)",
-        "conduct": "Aria, within the mandate",
         "complaint_channel": "ops@acme-ai.example"
       },
       "channels": [

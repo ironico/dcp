@@ -101,6 +101,6 @@ DCP 3.0 restructures the twelve capabilities of 2.0.0-draft into eight core prin
 
 - **C3**: with no mandate covering it, the agent asks before any action with external effect (C3.1).
 - **C4**: memory can be erased item by item (C4.3).
-- **C6**: the answerability statement — operator, platform, agent (C6.5).
+- **C6**: the answerability statement — operator and platform; the agent answers for nothing itself (C6.5).
 - **C8**: export is available at any time, not only at the end of an engagement.
 - **[P]** tag for platform gaps; **Assessed** level.
