@@ -86,6 +86,10 @@ In 2.0 the Handover happened at the end of an engagement. A personal agent's rel
 
 The DCP frames the agent as a colleague, with a name and a voice. This is a professional role, not a claim to personhood, and it can invite over-attribution of human qualities. Where the framing and transparency conflict, transparency wins (C2).
 
+## Related work
+
+The phrase is not the DCP's alone. A 2026 survey, *From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI* (Zhang et al., [arXiv:2606.14502](https://arxiv.org/abs/2606.14502)), uses it for the move from conversational answers to persistent work. The survey is about the machinery: reasoning models, tool use, persistent workspaces and skills, evaluation in sandboxes. How such an agent should behave toward the people it works for, and who answers when it gets something wrong, stays mostly outside its scope. That gap is where the DCP sits.
+
 ## Verification
 
 The DCP does not inspect an agent's internal memory. An agent is a black box: a dishonest one can hide what it shows, an honest one needs no inspection. The DCP relies on declaration and accountability instead: the agent declares, the operator answers for the declaration, and a later contradicting outcome is an attributable violation. C4 asks the agent to disclose its memory to its employer; it does not ask a third party to audit it.
@@ -138,11 +142,14 @@ Agents drift: models change, behavior changes. A 2026 certification does not vou
 
 ## Regulatory alignment
 
-| Principle | Related obligation |
-|---|---|
-| C2 Transparency | EU AI Act (Reg. 2024/1689), Art. 50 — informing people they interact with an AI |
-| C4 Inspectable Memory | GDPR Arts. 15–17 — access, rectification, erasure |
-| C5 Human Oversight | EU AI Act, Art. 14 — human oversight |
-| C6 Accountability | EU AI Act, deployer obligations — a named party answers for the system's use |
+The DCP points in the same direction as some legal obligations. It does not restate them, and the party the law obliges is never the agent.
+
+| Principle | Related obligation | Who the law obliges |
+|---|---|---|
+| C2 Transparency | EU AI Act (Reg. 2024/1689), Art. 50: people must know they interact with an AI | The provider and, in some cases, the deployer |
+| C4 Inspectable Memory | GDPR Arts. 15–17: access, rectification, erasure | The controller: the platform, or whoever uses the agent |
+| C5 Human Oversight | EU AI Act, Art. 14: human oversight. It applies to high-risk systems only; C5 extends the idea to every agent | Provider and deployer of a high-risk system |
+| C6 Accountability | EU AI Act, deployer obligations, mostly for high-risk systems | The deployer |
+| C8 Portability | GDPR Art. 20: portability of the personal data a person provided. C8 also covers what the agent learned about the work, which is not always personal data | The controller |
 
 DCP conformance is not, by itself, legal compliance.
