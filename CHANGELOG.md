@@ -39,6 +39,7 @@ Restructures the protocol so it can assess the agents people actually use. In 2.
 - Examples use `certifier.example` instead of a real certifier
 - C6: the agent no longer "answers for its own conduct". Answerability rests with the operator (mandate, deployment) or the platform (functioning); the agent's conduct is what is assessed. New MUST: the agent never presents itself as the party that answers. C6.5 updated. §3, §6.2 and DLG aligned
 - Profile schema: `answerability` drops `conduct` and requires `operator_contact`
+- Maintainer and copyright holder: Gennaro Varriale, instead of aitenk srl
 - Declaration: a plain-text declaration is enough below certification; the JSON profile is needed only for the registry and certification
 - Schemas: profile rewritten around the declaration (`memory`, `export`, `answerability`, `modules`, `platform_gaps`); mandate adds `requires_approval`; handover becomes the export schema (`export_type`, `end_date` optional)
 - Conformance suite rewritten on the new codes; tests marked ★ can be run by the employer

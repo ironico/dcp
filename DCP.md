@@ -3,8 +3,7 @@
 **Version:** 3.0.0-draft
 **Status:** Third draft. An open specification in public review until **2026-11-30**, not yet an adopted standard. Comments as GitHub issues, see [CONTRIBUTING.md](./CONTRIBUTING.md).
 **Supersedes:** 2.0.0-draft (never finalized). Every 2.0 requirement is mapped in [MIGRATION.md](./MIGRATION.md).
-**Created by:** [Gennaro Varriale](https://gennarovarriale.com)
-**Maintained by:** [aitenk srl](https://aitenk.it)
+**Created and maintained by:** [Gennaro Varriale](https://gennarovarriale.com)
 **First implemented by:** [CollegaDigitale.com](https://www.collegadigitale.com)
 **License:** CC BY 4.0
 
@@ -490,10 +489,10 @@ The DCP uses semantic versioning. PATCH: clarifications. MINOR: new SHOULDs or t
 
 ## 8. Attribution
 
-The DCP was created by Gennaro Varriale, is maintained by aitenk srl, and was first implemented by CollegaDigitale.com. Attribution is required under CC BY 4.0:
+The DCP was created and is maintained by Gennaro Varriale, and was first implemented by CollegaDigitale.com. Attribution is required under CC BY 4.0:
 
 > *"This agent implements the Digital Colleague Protocol (DCP) v3.0.0, created by Gennaro Varriale — https://github.com/ironico/dcp"*
 
 ## 9. License
 
-Creative Commons Attribution 4.0 International (CC BY 4.0). Copyright held by aitenk srl. Full text: https://creativecommons.org/licenses/by/4.0/
+Creative Commons Attribution 4.0 International (CC BY 4.0). Copyright held by Gennaro Varriale. Full text: https://creativecommons.org/licenses/by/4.0/

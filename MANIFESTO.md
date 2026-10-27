@@ -86,5 +86,5 @@ That is what we ask of human colleagues, minus the one thing a machine cannot ho
 
 ---
 
-*The Digital Colleague Protocol is an open standard created by [Gennaro Varriale](https://gennarovarriale.com), maintained by [aitenk srl](https://aitenk.it), and first implemented by [CollegaDigitale.com](https://www.collegadigitale.com).*
+*The Digital Colleague Protocol is an open standard created by [Gennaro Varriale](https://gennarovarriale.com), who also maintains it, and first implemented by [CollegaDigitale.com](https://www.collegadigitale.com).*
 *Read the specification: [DCP.md](./DCP.md) — Contribute: [CONTRIBUTING.md](./CONTRIBUTING.md)*

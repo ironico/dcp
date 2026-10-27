@@ -1,8 +1,7 @@
 # Digital Colleague Protocol (DCP)
 
 **Version:** 3.0.0-draft (third draft, in public review until 2026-11-30)
-**Created by:** [Gennaro Varriale](https://gennarovarriale.com)
-**Maintained by:** [aitenk srl](https://aitenk.it) — **First implemented by:** [CollegaDigitale.com](https://www.collegadigitale.com)
+**Created and maintained by:** [Gennaro Varriale](https://gennarovarriale.com) — **First implemented by:** [CollegaDigitale.com](https://www.collegadigitale.com)
 **License:** CC BY 4.0
 
 > Not to be confused with the [Eclipse Dataspace Decentralized Claims Protocol](https://projects.eclipse.org/projects/technology.dataspace-dcp), also abbreviated DCP, which defines how organizations exchange verifiable credentials in data spaces. The two are unrelated. Until 2.0 this specification was called CDP; see [MIGRATION.md](./MIGRATION.md).
@@ -102,7 +101,7 @@ dcp/
 
 This is a draft written by one person, and it is meant to be challenged. Objections are the most useful contribution: open an issue, see [CONTRIBUTING.md](./CONTRIBUTING.md). Reviews from people working on law, security, and agent development are especially welcome.
 
-**Conflict of interest.** aitenk srl, which maintains the DCP, sells training, consulting, and agent development. For this reason the specification, the suite, and the tools on CollegaDigitale are free and public, and no certification is sold with a guaranteed outcome.
+**Conflict of interest.** The author of the DCP also works as a paid consultant and trainer on AI agents. For this reason the specification, the suite, and the tools on CollegaDigitale are free and public, and no certification is sold with a guaranteed outcome.
 
 ---
 
